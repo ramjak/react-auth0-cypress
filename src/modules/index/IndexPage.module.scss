@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.loginButton {
+  padding: 16px 24px;
+  font-size: 14px;
+  border: 0;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}

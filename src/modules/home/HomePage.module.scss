@@ -1,0 +1,64 @@
+.root {
+  padding: 20px;
+}
+.head {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 52px;
+  align-items: center;
+
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+}
+.picture {
+  height: auto;
+  width: 30%;
+  max-width: 128px;
+}
+.title {
+
+}
+.descriptor {
+  //width: 70px;
+  font-weight: bolder;
+  display: block;
+}
+.desc {
+  background: #ababab;
+  padding: 12px;
+
+  div {
+    margin-bottom: 8px;
+  }
+}
+.logoutButton {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 0;
+  background-color: darkred;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.content {
+  margin: 20px 0;
+}
+.checkButton {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 0;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.table {
+  width: 100%;
+  th {
+    text-align: left;
+  }
+}
